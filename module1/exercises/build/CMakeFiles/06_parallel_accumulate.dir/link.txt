@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/06_parallel_accumulate.dir/06_parallel_accumulate.cpp.o  -o 06_parallel_accumulate  -lpthread -fsanitize=thread 

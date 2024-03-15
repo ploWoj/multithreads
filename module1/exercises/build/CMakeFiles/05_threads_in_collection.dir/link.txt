@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/05_threads_in_collection.dir/05_threads_in_collection.cpp.o  -o 05_threads_in_collection  -lpthread -fsanitize=thread 

@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/04_scoped_thread.dir/04_scoped_thread.cpp.o  -o 04_scoped_thread  -lpthread -fsanitize=thread 

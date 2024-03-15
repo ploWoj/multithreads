@@ -1,0 +1,8 @@
+/home/wojtek/Desktop/c++/multithreading/module1/exercises/build/CMakeFiles/rebuild_cache.dir
+/home/wojtek/Desktop/c++/multithreading/module1/exercises/build/CMakeFiles/edit_cache.dir
+/home/wojtek/Desktop/c++/multithreading/module1/exercises/build/CMakeFiles/06_parallel_accumulate.dir
+/home/wojtek/Desktop/c++/multithreading/module1/exercises/build/CMakeFiles/05_threads_in_collection.dir
+/home/wojtek/Desktop/c++/multithreading/module1/exercises/build/CMakeFiles/04_scoped_thread.dir
+/home/wojtek/Desktop/c++/multithreading/module1/exercises/build/CMakeFiles/03_methods_passing.dir
+/home/wojtek/Desktop/c++/multithreading/module1/exercises/build/CMakeFiles/02_reference_passing.dir
+/home/wojtek/Desktop/c++/multithreading/module1/exercises/build/CMakeFiles/01_params_passing.dir

@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>C++ Multithreading</title>
+
+        <meta name="description" content="C++11, C++14 and C++17 presentation">
+        <meta name="author" content="Lukasz Ziobron">
+
+        <link rel="stylesheet" href="../../dist/reset.css">
+        <link rel="stylesheet" href="../../dist/reveal.css">
+        <link rel="stylesheet" href="../../dist/theme/coders.css" id="theme">
+
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="../../plugin/highlight/monokai.css">
+
+    </head>
+    <body>
+
+        <div class="reveal">
+            <div class="slides">
+                <section data-background="#111111">
+
+                    <h1>Multithreading #2</h1>
+                    <h2>Wątki</h2>
+                    <a href="https://coders.school">
+                        <img width="500" data-src="../coders_school_logo.png" alt="Coders School" class="plain">
+                    </a>
+                    <h3>Łukasz Ziobroń</h3>
+                    <h3>Mateusz Adamski</h3>
+
+                </section>
+                <section data-markdown>
+                    <textarea data-template>
+
+                    ## Wątki - Agenda
+
+                    * <!-- .element: class="fragment fade-in" --> intro
+                    * <!-- .element: class="fragment fade-in" --> współbieżność
+                    * <!-- .element: class="fragment fade-in" --> <code>std::thread</code>
+                    * <!-- .element: class="fragment fade-in" --> przekazywanie argumentów do wątków
+                    * <!-- .element: class="fragment fade-in" --> <code>join()</code> czy <code>detach()</code>?
+                    * <!-- .element: class="fragment fade-in" --> RAII
+                    * <!-- .element: class="fragment fade-in" --> copy elision (RVO)
+                    * <!-- .element: class="fragment fade-in" --> wisząca referencja
+                    * <!-- .element: class="fragment fade-in" --> wyjątki w wątkach
+                    * <!-- .element: class="fragment fade-in" --> funkcje pomocnicze
+                    * <!-- .element: class="fragment fade-in" --> wątki w kolekcjach
+                    * <!-- .element: class="fragment fade-in" --> zadania
+
+                    </textarea>
+                </section>
+
+                <section data-markdown="00_intro.pl.md"
+                         data-separator-vertical="^___"
+                         data-separator-notes="^Note:">
+                </section>
+
+                <section data-markdown="01_concurrency.pl.md"
+                         data-separator-vertical="^___"
+                         data-separator-notes="^Note:">
+                </section>
+
+                <section data-markdown="02_std_thread.pl.md"
+                         data-separator-vertical="^___"
+                         data-separator-notes="^Note:">
+                </section>
+
+                <section data-markdown="03_passing_arguments.pl.md"
+                         data-separator-vertical="^___"
+                         data-separator-notes="^Note:">
+                </section>
+
+                <section data-markdown="04_join_or_detach.pl.md"
+                         data-separator-vertical="^___"
+                         data-separator-notes="^Note:">
+                </section>
+
+                <section data-markdown="05_raii.pl.md"
+                         data-separator-vertical="^___"
+                         data-separator-notes="^Note:">
+                </section>
+
+                <section data-markdown="06_copy_elision.pl.md"
+                         data-separator-vertical="^___"
+                         data-separator-notes="^Note:">
+                </section>
+
+                <section data-markdown="07_dangling_reference.pl.md"
+                         data-separator-vertical="^___"
+                         data-separator-notes="^Note:">
+                </section>
+
+                <section data-markdown="08_exceptions.pl.md"
+                         data-separator-vertical="^___"
+                         data-separator-notes="^Note:">
+                </section>
+
+                <section data-markdown="09_auxiliary_functions.pl.md"
+                         data-separator-vertical="^___"
+                         data-separator-notes="^Note:">
+                </section>
+
+                <section data-markdown="10_threads_in_collections.pl.md"
+                         data-separator-vertical="^___"
+                         data-separator-notes="^Note:">
+                </section>
+
+                <section data-markdown="11_homework.pl.md"
+                         data-separator-vertical="^___"
+                         data-separator-notes="^Note:">
+                </section>
+
+                <section data-background="../coders_school_logo.png" data-background-size="80%">
+                    <h1>Dziękuję 🙂</h1>
+                </section>
+            </div>
+
+        </div>
+
+        <script src="../../dist/reveal.js"></script>
+        <script src="../../plugin/notes/notes.js"></script>
+        <script src="../../plugin/markdown/markdown.js"></script>
+        <script src="../../plugin/highlight/highlight.js"></script>
+
+        <script>
+            Reveal.initialize({
+                    width: 1200,
+                    height: 750,
+                    slideNumber: true,
+                    hash: true,
+                    pdfSeparateFragments: false,
+                    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+            });
+    </script>
+    </body>
+</html>

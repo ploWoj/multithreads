@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/01_params_passing.dir/01_params_passing.cpp.o  -o 01_params_passing  -lpthread -fsanitize=thread 
